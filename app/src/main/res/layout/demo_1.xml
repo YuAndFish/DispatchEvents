@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="today" />
+    </RelativeLayout>
+
+    <com.jiedai.dispatchevents.views.HorizontalScrollViewEx
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+</LinearLayout>
